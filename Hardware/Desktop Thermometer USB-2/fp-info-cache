@@ -1,4 +1,4 @@
-22362996698905277
+22364703867451640
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54088,6 +54088,13 @@ emi filter
 0
 5
 5
+Footprints
+C_Epoxy_D5.5mm_W3.2mm_P5.00mm
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5.1*3.2mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 5.1mm width 3.2mm Capacitor
+0
+2
+2
 Footprints
 DIP-8_W7.62mm_LongPads
 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
