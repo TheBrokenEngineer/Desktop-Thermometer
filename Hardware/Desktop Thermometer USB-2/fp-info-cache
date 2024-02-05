@@ -1,4 +1,4 @@
-22364703867451640
+22368118210865278
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54109,6 +54109,20 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
 0
 16
 16
+Footprints
+LED-7-SEG
+7-Segment Display
+
+0
+10
+10
+Footprints
+TMP3x_TO-92
+TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)
+
+0
+3
+3
 Footprints
 USB_TYPE_B
 CUI UJ2-BH-W1-TH USB Type B Connector
