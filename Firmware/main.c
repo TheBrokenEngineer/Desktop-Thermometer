@@ -60,6 +60,11 @@
  */
 #define REPORT_WAIT_SEC 30
 
+/*
+ * Uncomment out the following if using a TMP37
+ */
+#define TMP37 1
+
 // PIC Libraries
 #include <xc.h>
 
@@ -268,10 +273,15 @@ void send_value(const int tens, const int ones, const int tenths) {
  * @param voltage The raw voltage value received from the ADC. This value is in millivolts
  */
 void process_result(int voltage) {
-
+    int temperature = 0;
+    
+#ifdef TMP37
+    temperature = voltage / 2;
+#else
     // The voltage of the TMP36 is calibrated as 750mV @ 25 degrees C with 10mV per degree.
     // we need to set this value with the correct offset to 0.
-    int temperature = voltage - 500;
+    temperature = voltage - 500;
+#endif
 
     // Break down into the single digits, we assume that this value will be below 100
     // since 100c is way too hot for humans to survive!
