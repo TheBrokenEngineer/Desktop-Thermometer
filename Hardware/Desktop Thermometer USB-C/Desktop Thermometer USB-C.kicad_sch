@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Desktop Thermometer - USB 2 Version")
+    (title "Desktop Thermometer - USB C Version")
     (rev "1.0-A")
   )
 
