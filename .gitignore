@@ -4,3 +4,9 @@ Hardware/.DS_Store
 Hardware/Desktop Thermometer USB-2/.DS_Store
 Hardware/Desktop Thermometer USB-C/.DS_Store
 Hardware/Desktop Thermometer USB-C/Schematic Symbols.bak
+Firmware/.DS_Store
+Firmware/build
+Firmware/dist
+Firmware/nbproject/private
+Firmware/nbproject/Makefile-local-default.mk
+Firmware/nbproject/Makefile-genesis.properties
