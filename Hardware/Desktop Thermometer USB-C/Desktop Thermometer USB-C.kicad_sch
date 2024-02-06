@@ -388,137 +388,68 @@
         )
       )
     )
-    (symbol "Schematic Symbols:USB_TYPE_B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -5.08 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+    (symbol "Schematic Symbols:USB_TYPE_C" (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at -6.35 10.16 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "USB_TYPE_B" (at -5.08 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "UJC-HP2-3-SMT-TR" (at 0 -10.16 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Footprints:USB_TYPE_B" (at 0 -24.13 0)
+      (property "Footprint" "Footprints:CUI_UJC-HP2-3-SMT-TR" (at -2.54 -12.7 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://www.cuidevices.com/product/resource/uj2-bh-th.pdf" (at 0 -21.59 0)
+      (property "Datasheet" "https://www.cuidevices.com/product/resource/ujc-hp2-3-smt-tr.pdf" (at -1.27 -15.24 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "connector USB" (at 0 0 0)
+      (property "ki_description" "CUI Devices USB-C connector UJC-HP2-3-SMT-TR" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "USB Type B connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "USB*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "USB_TYPE_B_0_1"
-        (rectangle (start -5.08 -7.62) (end 5.08 7.62)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center -3.81 2.159) (radius 0.635)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -3.81 5.588) (end -2.54 4.572)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -0.635 3.429) (radius 0.381)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -0.127 -7.62) (end 0.127 -6.858)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 2.159)
-            (xy 0.635 2.159)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.175 2.159)
-            (xy -2.54 2.159)
-            (xy -1.27 3.429)
-            (xy -0.635 3.429)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.159)
-            (xy -1.905 2.159)
-            (xy -1.27 0.889)
-            (xy 0 0.889)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 2.794)
-            (xy 0.635 1.524)
-            (xy 1.905 2.159)
-            (xy 0.635 2.794)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -4.064 4.318)
-            (xy -2.286 4.318)
-            (xy -2.286 5.715)
-            (xy -2.667 6.096)
-            (xy -3.683 6.096)
-            (xy -4.064 5.715)
-            (xy -4.064 4.318)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.254 1.27) (end -0.508 0.508)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 5.08 -2.667) (end 4.318 -2.413)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 5.08 -0.127) (end 4.318 0.127)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 5.08 4.953) (end 4.318 5.207)
+      (symbol "USB_TYPE_C_0_1"
+        (rectangle (start -7.62 8.89) (end 7.62 -8.89)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "USB_TYPE_B_1_1"
-        (pin power_out line (at 7.62 5.08 180) (length 2.54)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 7.62 -2.54 180) (length 2.54)
-          (name "D-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 7.62 0 180) (length 2.54)
-          (name "D+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 -5.08 180) (length 2.54)
+      (symbol "USB_TYPE_C_1_1"
+        (pin power_out line (at -11.43 1.27 0) (length 3.81)
           (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
+          (number "A12" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -2.54 -10.16 90) (length 2.54)
-          (name "Shield" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 11.43 6.35 180) (length 3.81)
+          (name "CC1" (effects (font (size 1.27 1.27))))
+          (number "A5" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at -11.43 6.35 0) (length 3.81)
+          (name "V_{BUS}" (effects (font (size 1.27 1.27))))
+          (number "A9" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at -11.43 -1.27 0) (length 3.81)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "B12" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 11.43 3.81 180) (length 3.81)
+          (name "CC2" (effects (font (size 1.27 1.27))))
+          (number "B5" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at -11.43 3.81 0) (length 3.81)
+          (name "V_{BUS}" (effects (font (size 1.27 1.27))))
+          (number "B9" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 11.43 -3.81 180) (length 3.81)
+          (name "SHIELD" (effects (font (size 1.27 1.27))))
+          (number "S1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 11.43 -6.35 180) (length 3.81)
+          (name "SHIELD" (effects (font (size 1.27 1.27))))
+          (number "S2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -11.43 -3.81 0) (length 3.81)
+          (name "SHIELD" (effects (font (size 1.27 1.27))))
+          (number "S3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -11.43 -6.35 0) (length 3.81)
+          (name "SHIELD" (effects (font (size 1.27 1.27))))
+          (number "S4" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -616,6 +547,9 @@
     )
   )
 
+  (junction (at 195.58 94.615) (diameter 0) (color 0 0 0 0)
+    (uuid 0ae39deb-bf9c-40c5-8d88-dd7fc09929f0)
+  )
   (junction (at 80.645 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 0e370376-6258-4255-a159-535689999a0a)
   )
@@ -624,6 +558,9 @@
   )
   (junction (at 136.525 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 24f31839-da9b-48c2-9bb1-a4e0e2caceb3)
+  )
+  (junction (at 231.775 104.14) (diameter 0) (color 0 0 0 0)
+    (uuid 2829be59-9d5c-4717-b7e6-96c06f490455)
   )
   (junction (at 19.05 111.125) (diameter 0) (color 0 0 0 0)
     (uuid 28ecaae3-2ff6-4ed0-9077-84797e4537b1)
@@ -652,6 +589,9 @@
   (junction (at 207.01 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 9fcab6e2-3df5-4a8e-b260-048343a14e6d)
   )
+  (junction (at 195.58 86.995) (diameter 0) (color 0 0 0 0)
+    (uuid bd04b8e4-c085-437b-a91e-61264dd04727)
+  )
   (junction (at 19.05 109.22) (diameter 0) (color 0 0 0 0)
     (uuid bddbbac9-0fec-4df1-92e5-b903706304ee)
   )
@@ -671,12 +611,13 @@
     (uuid f9a2cb58-e214-4f5f-910f-d2b2f57614f5)
   )
 
-  (no_connect (at 215.9 94.615) (uuid 1c7e4a95-0870-4cff-9ecc-c4ffa0d04d18))
+  (no_connect (at 200.025 99.695) (uuid 27e7862d-c6c8-401c-ba7b-e1b6d9054f04))
   (no_connect (at 169.545 102.87) (uuid 46aefdfd-43d9-49de-8133-ce92c9cc0cad))
-  (no_connect (at 215.9 97.155) (uuid 6cadc4c5-a7e4-4557-8719-15c9dce66b1b))
+  (no_connect (at 222.885 99.695) (uuid 72d16169-9a4f-4632-b1ce-72b77296afbc))
   (no_connect (at 52.07 100.33) (uuid 7e0dacac-6b17-4bb6-bb3b-ec8f51080872))
   (no_connect (at 169.545 100.33) (uuid 952934fd-7798-424a-a76a-7e16a5896947))
-  (no_connect (at 205.74 104.775) (uuid b0bf1221-65c9-4d75-8f18-1b39c7a6f07e))
+  (no_connect (at 222.885 97.155) (uuid b3ffea05-f7b3-4f39-9140-c15edb7b34bd))
+  (no_connect (at 200.025 97.155) (uuid ed7b2b70-ba3a-4f43-9dd2-9a6bda4e49b5))
 
   (wire (pts (xy 80.645 109.22) (xy 80.645 108.585))
     (stroke (width 0) (type default))
@@ -689,6 +630,10 @@
   (wire (pts (xy 80.645 111.125) (xy 80.645 112.395))
     (stroke (width 0) (type default))
     (uuid 083d4c81-3502-4d06-813e-95e1ce26771d)
+  )
+  (wire (pts (xy 227.33 101.6) (xy 227.33 104.14))
+    (stroke (width 0) (type default))
+    (uuid 0afd448a-67f7-4824-9790-d6d774f60b9f)
   )
   (wire (pts (xy 84.455 87.63) (xy 93.345 87.63))
     (stroke (width 0) (type default))
@@ -732,6 +677,10 @@
     (stroke (width 0) (type default))
     (uuid 16b533aa-95fe-4e57-9344-e0c4fc1eca0e)
   )
+  (wire (pts (xy 195.58 92.075) (xy 195.58 94.615))
+    (stroke (width 0) (type default))
+    (uuid 16c43b6b-e0bc-49a1-a658-ebd6aa011346)
+  )
   (wire (pts (xy 179.705 29.21) (xy 174.625 29.21))
     (stroke (width 0) (type default))
     (uuid 17028f2d-6da8-46f1-9484-cc305bdb27d9)
@@ -752,13 +701,13 @@
     (stroke (width 0) (type default))
     (uuid 1b183d6e-149e-4f0b-b4fc-816e7bead6d9)
   )
+  (wire (pts (xy 236.22 86.995) (xy 236.22 93.98))
+    (stroke (width 0) (type default))
+    (uuid 1b192e53-1ea9-4136-999c-7f133bb26948)
+  )
   (wire (pts (xy 177.165 34.29) (xy 177.165 46.99))
     (stroke (width 0) (type default))
     (uuid 1b88f04c-2896-488d-8dfc-9000464dca14)
-  )
-  (wire (pts (xy 218.44 87.63) (xy 218.44 89.535))
-    (stroke (width 0) (type default))
-    (uuid 1bef57fd-130e-43a0-98da-a08e55058b4d)
   )
   (wire (pts (xy 140.335 82.55) (xy 149.225 82.55))
     (stroke (width 0) (type default))
@@ -819,6 +768,10 @@
   (wire (pts (xy 153.67 21.59) (xy 163.195 21.59))
     (stroke (width 0) (type default))
     (uuid 2be16f3c-9f7b-41b5-a76f-6e2167453dae)
+  )
+  (wire (pts (xy 200.025 92.075) (xy 195.58 92.075))
+    (stroke (width 0) (type default))
+    (uuid 2cfb5a42-302e-4837-873d-2449b6484997)
   )
   (wire (pts (xy 59.055 24.13) (xy 60.96 24.13))
     (stroke (width 0) (type default))
@@ -896,9 +849,17 @@
     (stroke (width 0) (type default))
     (uuid 3d83df30-6160-4ce5-b407-2fa2c4484e9f)
   )
+  (wire (pts (xy 195.58 94.615) (xy 195.58 99.695))
+    (stroke (width 0) (type default))
+    (uuid 3ebc2117-526f-4757-b3ef-9d45ccf9a4c2)
+  )
   (wire (pts (xy 22.86 82.55) (xy 31.75 82.55))
     (stroke (width 0) (type default))
     (uuid 3f0cfc40-ded2-441b-902c-ea51c1810055)
+  )
+  (wire (pts (xy 195.58 89.535) (xy 195.58 86.995))
+    (stroke (width 0) (type default))
+    (uuid 3f6f940a-19e6-411c-a6d3-b7630603a050)
   )
   (wire (pts (xy 153.67 26.67) (xy 163.195 26.67))
     (stroke (width 0) (type default))
@@ -907,10 +868,6 @@
   (wire (pts (xy 8.89 41.91) (xy 17.145 41.91))
     (stroke (width 0) (type default))
     (uuid 4040cd6d-425e-40a6-afa1-79137f5535cb)
-  )
-  (wire (pts (xy 218.44 101.6) (xy 218.44 99.695))
-    (stroke (width 0) (type default))
-    (uuid 40c7c3f2-9505-46ac-afb9-6f8f67d85a04)
   )
   (wire (pts (xy 59.055 39.37) (xy 60.96 39.37))
     (stroke (width 0) (type default))
@@ -1005,6 +962,10 @@
     (stroke (width 0) (type default))
     (uuid 64f37bf6-9b73-4234-9c8f-ee533ae6deda)
   )
+  (wire (pts (xy 222.885 86.995) (xy 236.22 86.995))
+    (stroke (width 0) (type default))
+    (uuid 64f7a028-f4f7-4664-9eab-7b34af2a78f5)
+  )
   (wire (pts (xy 243.205 147.32) (xy 250.825 147.32))
     (stroke (width 0) (type default))
     (uuid 6675213b-c99a-4c86-97e0-4ac19c43e209)
@@ -1084,6 +1045,10 @@
   (wire (pts (xy 254.635 43.815) (xy 254.635 45.085))
     (stroke (width 0) (type default))
     (uuid 7d2e2288-1f6d-4c2f-bb14-ebe6354d0803)
+  )
+  (wire (pts (xy 200.025 89.535) (xy 195.58 89.535))
+    (stroke (width 0) (type default))
+    (uuid 7d6a6ab9-c444-418f-b926-92f0da788b38)
   )
   (wire (pts (xy 170.815 46.99) (xy 177.165 46.99))
     (stroke (width 0) (type default))
@@ -1186,6 +1151,10 @@
     (stroke (width 0) (type default))
     (uuid 9bf7ad7a-5d5d-4071-aecb-f7f5c5e3143f)
   )
+  (wire (pts (xy 195.58 86.995) (xy 200.025 86.995))
+    (stroke (width 0) (type default))
+    (uuid 9c53f3eb-7414-4f9e-8790-e438b2afbfe7)
+  )
   (wire (pts (xy 113.665 87.63) (xy 121.285 87.63))
     (stroke (width 0) (type default))
     (uuid 9c8f41da-fac1-4701-9a91-d5f234eaf7cd)
@@ -1229,10 +1198,6 @@
   (wire (pts (xy 93.98 52.07) (xy 101.6 52.07))
     (stroke (width 0) (type default))
     (uuid a9628341-9599-4fff-b847-0c3ad529e68f)
-  )
-  (wire (pts (xy 218.44 89.535) (xy 215.9 89.535))
-    (stroke (width 0) (type default))
-    (uuid abe98462-a3b9-4b28-9310-dc3eff14bf6a)
   )
   (wire (pts (xy 174.625 29.21) (xy 174.625 36.83))
     (stroke (width 0) (type default))
@@ -1285,6 +1250,10 @@
   (wire (pts (xy 19.05 99.06) (xy 19.05 100.33))
     (stroke (width 0) (type default))
     (uuid c12fe5fb-45d4-4348-bc77-805187713c45)
+  )
+  (wire (pts (xy 227.33 104.14) (xy 231.775 104.14))
+    (stroke (width 0) (type default))
+    (uuid c1cadedb-6b27-49ee-9f21-819d3e8ed860)
   )
   (wire (pts (xy 52.07 90.17) (xy 59.69 90.17))
     (stroke (width 0) (type default))
@@ -1362,9 +1331,17 @@
     (stroke (width 0) (type default))
     (uuid d67117fb-8169-4f21-876c-7dd3ecd7164f)
   )
+  (wire (pts (xy 231.775 104.14) (xy 231.775 106.68))
+    (stroke (width 0) (type default))
+    (uuid d6c4b351-0e06-45b7-b47d-3a9ab2d4220a)
+  )
   (wire (pts (xy 19.05 100.33) (xy 31.75 100.33))
     (stroke (width 0) (type default))
     (uuid d7dd19bb-13c3-4631-bdd9-481247433042)
+  )
+  (wire (pts (xy 236.22 104.14) (xy 236.22 101.6))
+    (stroke (width 0) (type default))
+    (uuid d86dc56e-cf85-4312-bcfd-8cdb666e068e)
   )
   (wire (pts (xy 78.105 21.59) (xy 86.36 21.59))
     (stroke (width 0) (type default))
@@ -1402,6 +1379,10 @@
     (stroke (width 0) (type default))
     (uuid e329af6b-92d9-45fa-be92-41cc10d7fff5)
   )
+  (wire (pts (xy 195.58 86.995) (xy 195.58 83.82))
+    (stroke (width 0) (type default))
+    (uuid e35b9903-2e39-4134-ba7b-fe6e3991bb3e)
+  )
   (wire (pts (xy 173.355 26.67) (xy 173.355 31.75))
     (stroke (width 0) (type default))
     (uuid e56d6498-c95b-4b27-8724-d5e87415a779)
@@ -1425,10 +1406,6 @@
   (wire (pts (xy 27.305 26.67) (xy 27.305 31.75))
     (stroke (width 0) (type default))
     (uuid ea238c09-9407-403e-b8a6-af035a4d235e)
-  )
-  (wire (pts (xy 218.44 99.695) (xy 215.9 99.695))
-    (stroke (width 0) (type default))
-    (uuid eaa57dee-cee2-429d-845c-ee3177bfb59a)
   )
   (wire (pts (xy 179.705 36.83) (xy 178.435 36.83))
     (stroke (width 0) (type default))
@@ -1459,11 +1436,19 @@
     (stroke (width 0) (type default))
     (uuid eed0e53e-c1ba-46de-ae6c-afad85684747)
   )
+  (wire (pts (xy 231.775 104.14) (xy 236.22 104.14))
+    (stroke (width 0) (type default))
+    (uuid f0e5e85d-ef2f-48ad-bce1-aac7bd8eb5fc)
+  )
   (polyline (pts (xy 217.805 1.905) (xy 217.805 66.675))
     (stroke (width 0) (type dash))
     (uuid f258881e-fe1f-4122-a814-7a92ad74e2d6)
   )
 
+  (wire (pts (xy 227.33 89.535) (xy 227.33 93.98))
+    (stroke (width 0) (type default))
+    (uuid f4bdb247-713f-47bd-84fb-1a40dcea229b)
+  )
   (wire (pts (xy 170.815 36.83) (xy 174.625 36.83))
     (stroke (width 0) (type default))
     (uuid f4be731f-eaee-4436-93be-52e8044becec)
@@ -1496,9 +1481,17 @@
     (stroke (width 0) (type default))
     (uuid fa6cb003-3d36-461b-b923-77245e748191)
   )
+  (wire (pts (xy 200.025 94.615) (xy 195.58 94.615))
+    (stroke (width 0) (type default))
+    (uuid fb17fdcc-2727-4ac6-a8c3-5ea5351519d5)
+  )
   (wire (pts (xy 207.01 24.13) (xy 207.01 39.37))
     (stroke (width 0) (type default))
     (uuid fc792310-1b4e-4656-98e5-2d963c6824a5)
+  )
+  (wire (pts (xy 222.885 89.535) (xy 227.33 89.535))
+    (stroke (width 0) (type default))
+    (uuid fd794af6-da78-418e-b47c-f130705c81d9)
   )
   (polyline (pts (xy 2.54 125.095) (xy 294.64 125.095))
     (stroke (width 0) (type dash))
@@ -1517,8 +1510,8 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 6115798e-4b25-48e6-9a2b-c648b04d5e86)
   )
-  (text "* Component assignment order dictated by board layout\n* Assignment of shift register output pins to display elements facilitate board routing\n* All 100nF capacitors to be placed as close as possible to the supply pins for all ICs\n* Either a TMP36 or TMP37 can be used for the TMP3x component\n* All current limiting resistors sized to allow for a maximum current of 40 mA per display\n"
-    (at 10.795 158.75 0)
+  (text "* Component assignment order dictated by board layout\n* Assignment of shift register output pins to display elements facilitate board routing\n* All 100nF capacitors to be placed as close as possible to the supply pins for all ICs\n* Either a TMP36 or TMP37 can be used for the TMP3x component\n* All current limiting resistors sized to allow for a maximum current of 40 mA per display\n* USB-C connector requires two 5K1 resistors for correct operation @ 5 volts\n"
+    (at 10.16 161.29 0)
     (effects (font (size 1.8 1.8)) (justify left bottom))
     (uuid b1ecc2fe-a46c-4834-a1be-ddf14f02c9fd)
   )
@@ -1822,7 +1815,7 @@
     (pin "1" (uuid 50c83d28-f964-423b-ac13-b89a6cceae6d))
     (pin "2" (uuid a58599d3-d8cd-406f-b134-57394d7e1bd0))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R15") (unit 1)
         )
@@ -1830,24 +1823,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 218.44 87.63 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 195.58 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c629f7a-3427-4f8f-961f-4c7696bbe3f9)
-    (property "Reference" "#PWR014" (at 218.44 91.44 0)
+    (property "Reference" "#PWR014" (at 195.58 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 218.44 82.55 0)
+    (property "Value" "+5V" (at 195.58 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 218.44 87.63 0)
+    (property "Footprint" "" (at 195.58 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 218.44 87.63 0)
+    (property "Datasheet" "" (at 195.58 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 528ab110-890c-4c6e-b001-6f91b3a13425))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR014") (unit 1)
         )
@@ -1872,7 +1865,7 @@
     )
     (pin "1" (uuid b2e01024-7886-43f5-803c-7a5bafd66c60))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR04") (unit 1)
         )
@@ -1897,7 +1890,7 @@
     )
     (pin "1" (uuid af56f712-4d74-4472-b7ee-77c54b472f2e))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR018") (unit 1)
         )
@@ -1922,9 +1915,43 @@
     )
     (pin "1" (uuid ba0e8ac1-602f-4b36-8add-a1c90b3aebc7))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Schematic Symbols:USB_TYPE_C") (at 211.455 93.345 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 17889074-bdf9-4464-b28b-9b16c36a126a)
+    (property "Reference" "J1" (at 205.105 83.185 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "UJC-HP2-3-SMT-TR" (at 211.455 103.505 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Footprints:CUI_UJC-HP2-3-SMT-TR" (at 208.915 106.045 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/ujc-hp2-3-smt-tr.pdf" (at 210.185 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "A12" (uuid 47c661de-94a0-4c83-abb5-671c4a35e423))
+    (pin "A5" (uuid e06e0b15-48e3-4e8f-9fcc-eeaf1e1c58de))
+    (pin "A9" (uuid bea68b59-6407-4c4d-8570-2cd0b8d49fd6))
+    (pin "B12" (uuid 9232729b-84a6-4a8b-998e-0dc2a4a8c9a9))
+    (pin "S1" (uuid b7b79b2b-e779-4eb2-96f3-1064d14a87e2))
+    (pin "B5" (uuid 42e1819c-372c-4e8d-a22a-edaaae3cfa79))
+    (pin "S4" (uuid 7c7257a1-8c9e-4919-9b54-689ac1041fa0))
+    (pin "B9" (uuid deb641df-870d-411b-8af3-87e65525af34))
+    (pin "S2" (uuid f8ecae49-6727-40f3-819f-ad8f3b52fd32))
+    (pin "S3" (uuid 79b3e9ee-2bd8-49f1-a9f4-b2e370685989))
+    (instances
+      (project "Desktop Thermometer USB-C"
+        (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1948,7 +1975,7 @@
     (pin "1" (uuid 97b93e7c-98f0-4163-81b6-ca1fbb15a6a7))
     (pin "2" (uuid 802525f2-0c3a-4410-b0d8-4a62570ebfc2))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R12") (unit 1)
         )
@@ -1974,7 +2001,7 @@
     (pin "1" (uuid be2f9a8e-64b8-400a-8a86-73f979411d48))
     (pin "2" (uuid b0b86c29-fecd-43b6-b68b-309a2fbc7b0b))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R14") (unit 1)
         )
@@ -2008,7 +2035,7 @@
     (pin "6" (uuid 0d8fb7b9-8f79-432c-97c5-803ac57a5ff4))
     (pin "8" (uuid 4f24c9bb-a836-4434-a3cf-ee538b674c00))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "D2") (unit 1)
         )
@@ -2034,7 +2061,7 @@
     (pin "1" (uuid 8802f2f2-80a3-4067-8e40-b7687512cc45))
     (pin "2" (uuid 8fc64ab2-5614-4b4e-8fc9-a070d4d823da))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R13") (unit 1)
         )
@@ -2060,7 +2087,7 @@
     (pin "1" (uuid 52fa6222-ac4b-4795-88bc-2d04402a2fa5))
     (pin "2" (uuid f16b7b09-e1da-4f0d-831b-245ff6e74f6c))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R6") (unit 1)
         )
@@ -2085,7 +2112,7 @@
     )
     (pin "1" (uuid 1307f73e-53d9-4e40-89bf-7dd8f717b86c))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR06") (unit 1)
         )
@@ -2111,7 +2138,7 @@
     (pin "1" (uuid 03ac6cde-6026-475c-9788-5d578a001557))
     (pin "2" (uuid 1a1f51b7-db14-49a6-8ca8-7b7f74be3b68))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R16") (unit 1)
         )
@@ -2145,7 +2172,7 @@
     (pin "6" (uuid 77269846-7f37-4904-915c-44fdcf847266))
     (pin "8" (uuid 33552e62-a34f-43be-a5bf-ad502ceaab99))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "D1") (unit 1)
         )
@@ -2170,7 +2197,7 @@
     )
     (pin "1" (uuid 578d26bd-352e-464f-93e2-e5bb5fdfe462))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR03") (unit 1)
         )
@@ -2196,7 +2223,7 @@
     (pin "1" (uuid c7a20e95-e723-4102-bf3f-7f72dfc88629))
     (pin "2" (uuid 042ef124-7e2a-45ad-8e50-5ce276b0b399))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R17") (unit 1)
         )
@@ -2221,7 +2248,7 @@
     )
     (pin "1" (uuid 92d7165f-715b-4e40-a868-120fd24b6d8d))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR010") (unit 1)
         )
@@ -2246,7 +2273,7 @@
     )
     (pin "1" (uuid e2d575ad-7ab5-4826-a0e8-e7a372f22fd3))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR016") (unit 1)
         )
@@ -2272,7 +2299,7 @@
     (pin "1" (uuid dcf57a31-3496-40ae-bc10-e7b95de1beef))
     (pin "2" (uuid 2584e705-ff70-44d5-a232-cfbab4d33d62))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R2") (unit 1)
         )
@@ -2298,7 +2325,7 @@
     (pin "1" (uuid 5164f5c9-ec95-42c4-ae3b-101759656941))
     (pin "2" (uuid 15ceb342-4764-482d-91f2-788fe407f12e))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R23") (unit 1)
         )
@@ -2324,7 +2351,7 @@
     (pin "1" (uuid 89232a4b-1ea4-4075-be76-02c25e6883fa))
     (pin "2" (uuid 7cf9388f-b8d7-4807-af32-043d5384ee78))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "C5") (unit 1)
         )
@@ -2350,7 +2377,7 @@
     (pin "1" (uuid 382e8205-83a9-42e4-b7de-44e4aee88186))
     (pin "2" (uuid 25c5e486-3e30-4000-a14a-262f0d955fdf))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R1") (unit 1)
         )
@@ -2376,38 +2403,9 @@
     (pin "1" (uuid f00a7ebe-311f-460e-bad4-4c93ff85df99))
     (pin "2" (uuid d33e2592-f563-419d-9f01-a5f96dc44d5d))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Schematic Symbols:USB_TYPE_B") (at 208.28 94.615 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5b51b366-096b-4ce9-b2a4-7b96738901b9)
-    (property "Reference" "J1" (at 208.28 81.915 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB_TYPE_B" (at 208.28 84.455 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Footprints:USB_TYPE_B" (at 208.28 118.745 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.cuidevices.com/product/resource/uj2-bh-th.pdf" (at 208.28 116.205 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 279aa8c9-4fd4-44d9-93f9-47d78934e4ff))
-    (pin "2" (uuid 230e779c-3382-4c96-ac4a-102998d435a7))
-    (pin "3" (uuid 0363f229-a001-4516-9b7d-8b1c9d2e5454))
-    (pin "5" (uuid 6b9eea4b-1691-4e45-bd96-9f707fd60e70))
-    (pin "4" (uuid aa114044-cbe5-4010-9fc9-37bef0ab768f))
-    (instances
-      (project "Desktop Thermometer USB-2"
-        (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
-          (reference "J1") (unit 1)
         )
       )
     )
@@ -2430,9 +2428,34 @@
     )
     (pin "1" (uuid 50c125e3-dfc8-4a1a-9b34-2c709f3371e7))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 231.775 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6508af71-dbe8-4d1e-9272-b9f53910f407)
+    (property "Reference" "#PWR01" (at 231.775 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 231.775 111.76 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 231.775 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 231.775 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b141a64c-c12b-436e-95c0-c39d43543e2d))
+    (instances
+      (project "Desktop Thermometer USB-C"
+        (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2455,9 +2478,35 @@
     )
     (pin "1" (uuid 3e31d1c6-ab37-4430-862d-4af35b5e8f12))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 227.33 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 86caceae-3f18-409b-b021-8797cd8728ec)
+    (property "Reference" "R25" (at 230.505 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5K1" (at 230.505 99.06 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 225.552 97.79 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf" (at 227.33 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 345ef994-4244-4540-a936-cdeb005b0d88))
+    (pin "2" (uuid a61a37b8-e9b2-4a32-9895-15826c6ca5aa))
+    (instances
+      (project "Desktop Thermometer USB-C"
+        (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2480,7 +2529,7 @@
     )
     (pin "1" (uuid 9f6ca341-7061-4ddd-8ccd-4d9c06fd1413))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR011") (unit 1)
         )
@@ -2506,7 +2555,7 @@
     (pin "1" (uuid f00a2af3-5ad3-4bbd-be2c-51880eb2d5c2))
     (pin "2" (uuid 1cb60f8c-b106-48b2-9a16-73583e79d04d))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R4") (unit 1)
         )
@@ -2532,7 +2581,7 @@
     (pin "1" (uuid 8230a5f0-0ba4-4d14-b0e3-af5f09f184a8))
     (pin "2" (uuid 9470bf92-5fc6-42b9-a042-f24b5b1f0df9))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "C4") (unit 1)
         )
@@ -2558,7 +2607,7 @@
     (pin "1" (uuid d333fc67-9b8e-46b2-b661-2d3249b71980))
     (pin "2" (uuid bcd42505-b64f-4f36-b692-cae9ff264c74))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R19") (unit 1)
         )
@@ -2583,7 +2632,7 @@
     )
     (pin "1" (uuid 4c0806a3-78f0-4a1e-adb6-bef53c47eca4))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR05") (unit 1)
         )
@@ -2609,7 +2658,7 @@
     (pin "1" (uuid 10b57237-1c60-4cbb-95f9-9055bd9bef0e))
     (pin "2" (uuid b73b5380-581d-4332-a279-d98f023320d5))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R22") (unit 1)
         )
@@ -2634,7 +2683,7 @@
     )
     (pin "1" (uuid 749a0a4b-c63b-497f-8e7e-70807a186a29))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR07") (unit 1)
         )
@@ -2642,24 +2691,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 218.44 101.6 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 195.58 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b59535fd-248e-467f-9558-612d0146a278)
-    (property "Reference" "#PWR017" (at 218.44 107.95 0)
+    (property "Reference" "#PWR017" (at 195.58 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 218.44 106.68 0)
+    (property "Value" "GND" (at 195.58 104.775 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 218.44 101.6 0)
+    (property "Footprint" "" (at 195.58 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 218.44 101.6 0)
+    (property "Datasheet" "" (at 195.58 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 81150e31-178e-40f5-9b27-75a0af4e64e7))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR017") (unit 1)
         )
@@ -2685,7 +2734,7 @@
     (pin "1" (uuid 11e4c838-11a7-40d4-9152-aacb8f2ff46a))
     (pin "2" (uuid 5c64f140-a2e8-4d52-a304-4563ca00e9de))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R21") (unit 1)
         )
@@ -2725,7 +2774,7 @@
     (pin "6" (uuid 76405b35-293f-49ed-8a2c-02f80f913a21))
     (pin "1" (uuid a8f5ff0b-39c5-4c17-9ce9-ce8d61c83905))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "U3") (unit 1)
         )
@@ -2751,7 +2800,7 @@
     (pin "1" (uuid c58f0260-8a4a-4960-96bf-aa663d6690dd))
     (pin "2" (uuid e3c83333-8b21-4bc0-ad47-9631797ddbd9))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R9") (unit 1)
         )
@@ -2783,7 +2832,7 @@
     (pin "5" (uuid b8d01976-57ad-4b07-901b-2cf2c82909ac))
     (pin "4" (uuid ea71573e-8f3f-482f-be73-5d5537c8ba10))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "U5") (unit 1)
         )
@@ -2809,7 +2858,7 @@
     (pin "1" (uuid a6a0328d-28e6-414d-b7f6-8a66e94519a2))
     (pin "2" (uuid 6b3d04b8-ec47-41fa-a523-e6c2c076a39a))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R10") (unit 1)
         )
@@ -2835,7 +2884,7 @@
     (pin "1" (uuid dc189a1a-c3f1-4852-b9fa-ebad88bbf4a3))
     (pin "2" (uuid 74a408ee-5731-48ef-a884-32ce9d3ea7ff))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R3") (unit 1)
         )
@@ -2875,7 +2924,7 @@
     (pin "6" (uuid f2d65a99-a345-4316-ba8d-b0d8189dc8a7))
     (pin "1" (uuid 6411d295-bdf8-4b27-a2bc-57c1519f1fb2))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "U2") (unit 1)
         )
@@ -2901,7 +2950,7 @@
     (pin "1" (uuid a0bf3aa0-affa-489c-a491-2b9d2da8be52))
     (pin "2" (uuid a3827aeb-17f9-4c95-9f77-cb592ad8e82e))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R7") (unit 1)
         )
@@ -2928,7 +2977,7 @@
     (pin "2" (uuid 4c9daa6e-ed86-4140-90d0-218700a8d5e8))
     (pin "1" (uuid 98a1f6c9-2c19-41b5-a34b-5fe74e8601f7))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "U4") (unit 1)
         )
@@ -2953,7 +3002,7 @@
     )
     (pin "1" (uuid d27b9202-f2e6-4e3b-a36c-27b2a4b298e9))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR09") (unit 1)
         )
@@ -2979,7 +3028,7 @@
     (pin "1" (uuid 9be597ad-018e-449d-9519-aa34c38bcee1))
     (pin "2" (uuid 9093d52b-84a9-421a-939a-3164e85f7931))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "C3") (unit 1)
         )
@@ -3005,7 +3054,7 @@
     (pin "1" (uuid 9d44f4c3-59c7-41c3-a31f-a7193ab4c7f6))
     (pin "2" (uuid 920fedb5-2ca9-4f25-9726-c38f423eaae0))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R11") (unit 1)
         )
@@ -3031,7 +3080,7 @@
     (pin "1" (uuid 909d88bf-ad0a-4781-beef-9a9209c57bd7))
     (pin "2" (uuid 811a56ca-14d3-4930-bfc0-511ce2dd250c))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R8") (unit 1)
         )
@@ -3057,7 +3106,7 @@
     (pin "1" (uuid 4b186532-59c2-448e-a55b-dc322a7482f5))
     (pin "2" (uuid b675d16e-368d-4ca8-9078-ccbe0e2f8361))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "C2") (unit 1)
         )
@@ -3082,7 +3131,7 @@
     )
     (pin "1" (uuid 78fc1b33-d0ff-40f2-a9da-ccc8e42bc73e))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "#PWR013") (unit 1)
         )
@@ -3108,7 +3157,7 @@
     (pin "1" (uuid ec7d0a53-42b7-4479-9733-13da69232bd8))
     (pin "2" (uuid d4259be0-1c05-4378-a654-457fd381c2f1))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "C1") (unit 1)
         )
@@ -3148,7 +3197,7 @@
     (pin "6" (uuid a14b5962-d07a-46aa-9e20-c9f86bc6a8f2))
     (pin "1" (uuid 6652b2d3-4eb2-4010-8cc0-2e681be80988))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "U1") (unit 1)
         )
@@ -3182,9 +3231,35 @@
     (pin "6" (uuid 0be46099-b253-45a5-89b9-8352415edcbb))
     (pin "8" (uuid d4684e62-79fe-4356-96bc-3fb063c74958))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 236.22 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ea0ae1b4-373b-485d-83d2-1796402e9957)
+    (property "Reference" "R24" (at 239.395 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "5K1" (at 239.395 99.06 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 234.442 97.79 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.seielect.com/catalog/sei-cf_cfm.pdf" (at 236.22 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ba82fedc-a4b3-439e-b3f7-60d00e89b5d7))
+    (pin "2" (uuid 998d32ac-2bac-4ad6-8178-89c56de199b8))
+    (instances
+      (project "Desktop Thermometer USB-C"
+        (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3208,7 +3283,7 @@
     (pin "1" (uuid 8f796656-f79e-41c2-a4b0-24f55660a2d3))
     (pin "2" (uuid 16d37401-7744-48ac-b5b8-09184b4962bc))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R18") (unit 1)
         )
@@ -3234,7 +3309,7 @@
     (pin "1" (uuid f6eb4173-0a58-4d69-8fbc-d4dae1fee2cc))
     (pin "2" (uuid 9a719a0a-a35e-4fd5-a019-2c3313f83e1d))
     (instances
-      (project "Desktop Thermometer USB-2"
+      (project "Desktop Thermometer USB-C"
         (path "/155b486c-e28e-4d6b-9039-05edc3f4c6ee"
           (reference "R20") (unit 1)
         )

@@ -64,17 +64,17 @@
       39,
       40
     ],
-    "visible_layers": "ffdffff_ffffffff",
+    "visible_layers": "ffcffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Desktop Thermometer USB-2.kicad_prl",
+    "filename": "Desktop Thermometer USB-C.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "Desktop Thermometer USB-2.kicad_pcb",
+        "name": "Desktop Thermometer USB-C.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
@@ -86,7 +86,7 @@
         }
       },
       {
-        "name": "Desktop Thermometer USB-2.kicad_sch",
+        "name": "Desktop Thermometer USB-C.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
