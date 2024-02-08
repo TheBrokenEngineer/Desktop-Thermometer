@@ -1,4 +1,4 @@
-22368118211089253
+22369832638095117
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54116,6 +54116,13 @@ LED-7-SEG
 0
 10
 10
+Footprints
+TBE Logo Small
+Small TBE Logo
+
+0
+0
+0
 Footprints
 TMP3x_TO-92
 TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)

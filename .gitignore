@@ -10,3 +10,7 @@ Firmware/dist
 Firmware/nbproject/private
 Firmware/nbproject/Makefile-local-default.mk
 Firmware/nbproject/Makefile-genesis.properties
+.DS_Store
+Hardware/Desktop Thermometer USB-2/fp-info-cache
+Hardware/Desktop Thermometer USB-2/Desktop Thermometer USB-2.kicad_prl
+Hardware/Desktop Thermometer USB-C/Desktop Thermometer USB-C.kicad_prl
