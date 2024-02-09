@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.10*
-G04 #@! TF.CreationDate,2024-02-08T16:48:27+11:00*
-G04 #@! TF.ProjectId,Desktop Thermometer USB-2,4465736b-746f-4702-9054-6865726d6f6d,rev?*
+G04 #@! TF.CreationDate,2024-02-09T12:47:37+11:00*
+G04 #@! TF.ProjectId,PIC16F15214 Debugger,50494331-3646-4313-9532-313420446562,1.0-A*
 G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FileFunction,Paste,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.10) date 2024-02-08 16:48:27*
+G04 Created by KiCad (PCBNEW 7.0.10) date 2024-02-09 12:47:37*
 %MOMM*%
 %LPD*%
 G01*
