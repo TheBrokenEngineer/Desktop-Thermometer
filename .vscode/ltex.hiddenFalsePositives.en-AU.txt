@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_EN_AU","sentence":"^\\QThis value is suggested only for the Inolux INND-TS56B display.\\E$"}
