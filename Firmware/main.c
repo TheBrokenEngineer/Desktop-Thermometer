@@ -84,7 +84,7 @@
 //      E    C
 //      E    C
 //      E    C
-//      DDDDDD
+//      DDDDDD DP
 //
 // Therefore each display digit has the following segments:
 //

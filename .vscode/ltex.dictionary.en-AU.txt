@@ -3,3 +3,7 @@ kiloohms
 Inolux
 milliamps
 mA
+breadboarding
+MPLAB
+MOSFET
+MPLAB-Snap
