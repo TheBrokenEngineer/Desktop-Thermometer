@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Desktop Thermometer - USB 2 Version")
+    (date "28-Feb-2024")
+    (rev "1.0-A")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

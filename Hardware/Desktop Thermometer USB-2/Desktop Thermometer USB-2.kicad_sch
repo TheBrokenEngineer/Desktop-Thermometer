@@ -6,6 +6,7 @@
 
   (title_block
     (title "Desktop Thermometer - USB 2 Version")
+    (date "28-Feb-2024")
     (rev "1.0-A")
   )
 

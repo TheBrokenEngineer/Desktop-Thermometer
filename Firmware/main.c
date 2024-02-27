@@ -61,7 +61,7 @@
 #define REPORT_WAIT_SEC 30
 
 /*
- * Uncomment out the following if using a TMP37
+ * Comment out the following if using a TMP36
  */
 #define TMP37 1
 
